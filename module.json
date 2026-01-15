@@ -2,7 +2,7 @@
   "id": "delta-kilo-fluid-gauge",
   "title": "Delta Kilo Fluid Gauge",
   "description": "A species-specific Foundry VTT module providing a custom UI fluid gauge for the Delta Kilo Autarchs. Tracks consumption of special oil instead of food, integrates with Easy Timekeeping, and dynamically drains based on oil type and elapsed in-game time.",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "authors": [
     {
       "name": "Niklas",
