@@ -1,7 +1,7 @@
 {
-  "id": "cao-the-call-of-the-ancestors",
-  "title": "CAO The Call of the Ancestors",
-  "description": "Macros and items for The Call of the Ancestors, including weapon logic, magazines, and automation helpers.",
+  "id": "delta-kilo-fluid-gauge",
+  "title": "Delta Kilo Fluid Gauge",
+  "description": "A species-specific Foundry VTT module providing a custom UI fluid gauge for the Delta Kilo Autarchs. Tracks consumption of special oil instead of food, integrates with Easy Timekeeping, and dynamically drains based on oil type and elapsed in-game time.",
   "version": "0.0.2",
   "authors": [
     {
@@ -38,9 +38,9 @@
   "styles": [],
   "packs": [
     {
-      "name": "call-of-the-ancestors-macros",
+      "name": "delta-kilo-fluid-gauge-macros",
       "label": "Macros",
-      "path": "packs/call-of-the-ancestors-macros",
+      "path": "packs/delta-kilo-fluid-gauge-macros",
       "type": "Macro",
       "ownership": {
         "PLAYER": "NONE",
@@ -50,9 +50,9 @@
       }
     },
     {
-      "name": "call-of-the-ancestors-items",
+      "name": "delta-kilo-fluid-gauge-items",
       "label": "Items",
-      "path": "packs/call-of-the-ancestors-items",
+      "path": "packs/delta-kilo-fluid-gauge-items",
       "type": "Item",
       "ownership": {
         "PLAYER": "NONE",
@@ -64,16 +64,16 @@
   ],
   "packFolders": [
     {
-      "name": "the-call-of-the-ancestors",
-      "label": "The Call of the Ancestors",
+      "name": "delta-kilo-fluid-gauge",
+      "label": "Delta Kilo Fluid Gauge",
       "packs": [
-        "call-of-the-ancestors-macros",
-        "call-of-the-ancestors-items"
+        "delta-kilo-fluid-gauge-macros",
+        "delta-kilo-fluid-gauge-items"
       ]
     }
   ],
-  "url": "https://github.com/AgentGGNik007/CAO-The-Call-of-the-Ancestor",
-  "manifest": "https://raw.githubusercontent.com/AgentGGNik007/CAO-The-Call-of-the-Ancestor/main/module.json",
-  "download": "https://github.com/AgentGGNik007/CAO-The-Call-of-the-Ancestor/releases/latest/download/cao-the-call-of-the-ancestor-latest.zip",
+  "url": "https://github.com/AgentGGNik007/delta-kilo-fluid-gauge",
+  "manifest": "https://raw.githubusercontent.com/AgentGGNik007/delta-kilo-fluid-gauge/main/module.json",
+  "download": "https://github.com/AgentGGNik007/delta-kilo-fluid-gauge/releases/latest/download/delta-kilo-fluid-gauge-latest.zip",
   "license": "MIT"
 }
